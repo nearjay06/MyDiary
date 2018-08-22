@@ -1,78 +1,125 @@
-body{
+body {
     width: 100%;
     height: 100%;
-    }
-    #flask{background-image: url(images/diary.jpg);background-repeat: no-repeat;
-           background-size:cover;
-        }
-    #flask2{background-image: url(images/diary2.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+}
 
-form{ color:greenyellow;
+#flask {
+    background-image: url(images/diary.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#flask2 {
+    background-image: url(images/diary2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    color: greenyellow;
     width: 200px;
     height: 300px;
     margin: auto;
     font-family: cambria;
-    font-weight:bold;
-}
-.find{color:greenyellow;
-           font-family: cambria;
-           font-weight:bold;
+    font-weight: bold;
 }
 
-.dear{text-align:center; 
-    font-size:40px;
-    font-family:georgia;
-    color:#f39c12
-} 
-.apples{width:100%;background-color: chocolate; height: 50px;}
-.apples ul li{
+.find {
+    color: greenyellow;
+    font-family: cambria;
+    font-weight: bold;
+}
+
+.dear {
+    text-align: center;
+    font-size: 40px;
+    font-family: georgia;
+    color: #f39c12
+}
+
+.apples {
+    width: 100%;
+    background-color: chocolate;
+    height: 50px;
+}
+
+.apples ul li {
     float: left;
-    list-style-type:none;
-    padding:20px;
-    font-size:25px;
-    font-family:Lucida Sans;
-    color:#2874A6;
-    
-    
-    }
-    a:link{
-        text-decoration:none;
-    }
-.li{display:inline;}
-.notes{
-    width:30%;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Lucida Sans;
+    color: #2874A6;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.li {
+    display: inline;
+}
+
+.notes {
+    width: 30%;
     text-align: left;
-    margin-top:60PX;
-    font-size:20px;
-    font-family:arial;
+    margin-top: 60PX;
+    font-size: 20px;
+    font-family: arial;
 }
-.notes ul li{text-decoration:none;
-    list-style-type:none;
-    }
 
-body{background-color: cornflowerblue;}
-.pics{ 
-    width:60%;
+.notes ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.pics {
+    width: 60%;
     padding-bottom: 30px;
-    padding-top:30px;
-    margin-top:60px;
+    padding-top: 30px;
+    margin-top: 60px;
     margin-bottom: 40px;
-    padding-left: 80px; 
-    
+    padding-left: 80px;
 }
-.pics1{margin: auto}
-.pics2{margin: auto}
-.pin{padding:0px;
-    margin:20px;}
 
-.foot{align-items:left;
+.pics1 {
+    margin: auto
+}
+
+.pics2 {
+    margin: auto
+}
+
+.pin {
+    padding: 0px;
+    margin: 20px;
+}
+
+.foot {
+    align-items: left;
     padding-left: 20px;
     padding-bottom: 20px;
     padding-top: 30px;
     list-style: none;
     margin: 20px;
+}
+ #pint {background-image: url(images/write.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 
 }
+
+.what{ 
+
+
+
+}
+
+
+
+
+
