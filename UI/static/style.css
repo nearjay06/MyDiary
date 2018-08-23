@@ -16,7 +16,7 @@ body {
 }
 
 form {
-    color: greenyellow;
+    color:darkblue;
     width: 200px;
     height: 300px;
     margin: auto;
@@ -110,14 +110,63 @@ body {
  #pint {background-image: url(images/write.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    
+}
+
+.copy{
+    margin-bottom:0;
 
 }
 
-.what{ 
+.enter{
+    float: right;
+    margin-right: 100px;
+    color: darkblue;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+}
 
+.counter{
+    color: #f39c12;
+}
 
+textarea{
+    border:1px solid silver;
+    border-radius:10px;
 
 }
+.pipe{
+    float: right;
+    margin-right: 100px;
+    color: darkblue;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+.plan{
+    float: right;
+    margin-right: 100px;
+    color: darkblue;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+.paper{
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    margin:90px;
+    float:right;
+    
+}
+
+
+
 
 
 
