@@ -128,13 +128,25 @@ body {
 }
 
 .counter{
-    color: #f39c12;
+    color:black;
 }
 
 textarea{
     border:1px solid silver;
     border-radius:10px;
 
+}
+.wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.profilepic{
+    width:20%;
+}
+.bag{
+    width:60%;
 }
 .pipe{
     float: right;
@@ -197,32 +209,22 @@ textarea{
 }
 .formwrapper{
     display: flex;
+    /* justify-content:space-between; */
+    
 }
 .peg{
-    float:right;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:20px;
-    padding-right:20px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:5px;
-    margin-bottom:5px;
+     width: 40%;
+     
+    
 }
 
 .peg1{
-    float:left;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:20px;
-    padding-right:20px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:5px;
-    margin-bottom:5px;
-}
+    width: 40%;
 }
 
+#save{
+    margin-left:50%;
+}
 
 
 
