@@ -284,4 +284,60 @@ h4{
     
 }
 
+#frame{
+    background-image: url(images/books2.jpg);
+    background-size: cover;
+    background-repeat:no repeat;
+
+}
+
+.dear1{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    font-family: georgia;
+
+}
+
+.apples2 ul li{
+    float: left;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Lucida Sans;
+    color:#f39c12;
+    text-align:center;
+    width:20%;
+
+}
+.apples2{width: 80%;
+    background-color:chocolate;
+    height: 60px;
+    margin-left:60px;
+}
+
+table{
+    margin-right: 20px;
+    color: black;
+    border: 3px solid maroon;
+    border-radius: 4px;
+    padding: 20px;
+    width:80%;
+    font-family: Geneva;
+    font-size:15px;
+    background-color: blueviolet; 
+    margin-left:80px;  
+}
+
+td,th{
+    padding: 20px;
+    font-family: Geneva;
+    font-size:20px;
+    border-bottom:3px solid maroon; 
+    border-right:3px solid maroon;
+
+}
+
+
+
 
