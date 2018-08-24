@@ -38,18 +38,22 @@ form {
 }
 
 .apples {
-    width: 100%;
-    background-color: chocolate;
-    height: 50px;
+    width: 80%;
+    background-color:chocolate;
+    height: 60px;
+    margin-left:60px;
+    
 }
 
 .apples ul li {
     float: left;
     list-style-type: none;
     padding: 20px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Lucida Sans;
-    color:#f39c12
+    color:#f39c12;
+    text-align:center;
+    width:20%;
 }
 
 a:link {
@@ -128,13 +132,25 @@ body {
 }
 
 .counter{
-    color: #f39c12;
+    color:black;
 }
 
 textarea{
     border:1px solid silver;
     border-radius:10px;
 
+}
+.wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.profilepic{
+    width:20%;
+}
+.bag{
+    width:60%;
 }
 .pipe{
     float: right;
@@ -197,32 +213,130 @@ textarea{
 }
 .formwrapper{
     display: flex;
+    /* justify-content:space-between; */
+    
 }
 .peg{
-    float:right;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:20px;
-    padding-right:20px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:5px;
-    margin-bottom:5px;
+     width: 40%;
+     
+    
 }
 
 .peg1{
-    float:left;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:20px;
-    padding-right:20px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:5px;
-    margin-bottom:5px;
-}
+    width: 40%;
 }
 
+#save{
+    margin-left:50%;
+    margin-top:8%;
+    padding-left: 30px;
+    padding-right:30px;
+}
+
+.userpic{
+width:40%
+}
+
+h3{
+color:maroon;
+}
+
+h4{
+    color:maroon
+}
+
+
+.done{
+    width:40%;
+    float:right;
+}
+.adventure{
+    width:40%;
+    float:left;
+}
+
+.formwrapper1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    
+}
+.press{
+    width:80%;
+    margin-top:15%;
+    
+}
+
+.press1{
+    float: right;
+    margin-right: 80px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 60px;
+}
+
+.press2{
+    float: right;
+    margin-right: 80px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left:60px;
+    
+}
+
+#frame{
+    background-image: url(images/books2.jpg);
+    background-size: cover;
+    background-repeat:no repeat;
+
+}
+
+.dear1{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    font-family: georgia;
+
+}
+
+.apples2 ul li{
+    float: left;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Lucida Sans;
+    color:#f39c12;
+    text-align:center;
+    width:20%;
+
+}
+.apples2{width: 80%;
+    background-color:chocolate;
+    height: 60px;
+    margin-left:60px;
+}
+
+table{
+    margin-right: 20px;
+    color: black;
+    border: 3px solid maroon;
+    border-radius: 4px;
+    padding: 20px;
+    width:80%;
+    font-family: Geneva;
+    font-size:15px;
+    background-color: blueviolet; 
+    margin-left:80px;  
+}
+
+td,th{
+    padding: 20px;
+    font-family: Geneva;
+    font-size:20px;
+    border-bottom:3px solid maroon; 
+    border-right:3px solid maroon;
+
+}
 
 
 
