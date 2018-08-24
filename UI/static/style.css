@@ -38,18 +38,22 @@ form {
 }
 
 .apples {
-    width: 100%;
-    background-color: chocolate;
-    height: 50px;
+    width: 80%;
+    background-color:chocolate;
+    height: 60px;
+    margin-left:60px;
+    
 }
 
 .apples ul li {
     float: left;
     list-style-type: none;
     padding: 20px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Lucida Sans;
-    color:#f39c12
+    color:#f39c12;
+    text-align:center;
+    width:20%;
 }
 
 a:link {
@@ -224,9 +228,60 @@ textarea{
 
 #save{
     margin-left:50%;
-    
+    margin-top:8%;
+    padding-left: 30px;
+    padding-right:30px;
+}
+
+.userpic{
+width:40%
+}
+
+h3{
+color:maroon;
+}
+
+h4{
+    color:maroon
 }
 
 
+.done{
+    width:40%;
+    float:right;
+}
+.adventure{
+    width:40%;
+    float:left;
+}
+
+.formwrapper1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    
+}
+.press{
+    width:80%;
+    margin-top:15%;
+    
+}
+
+.press1{
+    float: right;
+    margin-right: 80px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 60px;
+}
+
+.press2{
+    float: right;
+    margin-right: 80px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left:60px;
+    
+}
 
 
