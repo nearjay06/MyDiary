@@ -239,9 +239,13 @@ textarea{
     padding-right:30px;
 }
 
+#save a{
+    color:black;}
+
+
 .userpic{
-width:40%
-}
+width:40%;
+ }
 
 h3 a{
 color:maroon;
@@ -452,3 +456,12 @@ td,th{
 .enter3 a{
     color:black;
 }
+.paper3{
+    float:right;
+    margin-top:60%;
+    width:100%;
+    margin-left:0%;
+    margin-right:100%;
+    color: black;
+}
+
