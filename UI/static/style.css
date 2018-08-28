@@ -25,7 +25,7 @@ form {
 }
 
 .find {
-    color: greenyellow;
+    color: rgb(10, 10, 10);
     font-family: cambria;
     font-weight: bold;
 }
@@ -56,12 +56,18 @@ form {
     width:20%;
 }
 
+.apples a{
+    color:darkblue;
+}
 a:link {
     text-decoration: none;
 }
 
 .li {
     display: inline;
+}
+h4 a{
+    color:maroon;
 }
 
 .notes {
@@ -233,11 +239,15 @@ textarea{
     padding-right:30px;
 }
 
-.userpic{
-width:40%
-}
+#save a{
+    color:black;}
 
-h3{
+
+.userpic{
+width:40%;
+ }
+
+h3 a{
 color:maroon;
 }
 
@@ -303,7 +313,7 @@ h4{
     float: left;
     list-style-type: none;
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Lucida Sans;
     color:#f39c12;
     text-align:center;
@@ -313,7 +323,12 @@ h4{
 .apples2{width: 80%;
     background-color:chocolate;
     height: 60px;
-    margin-left:60px;
+    margin-left:70px;
+
+}
+
+.apples2 a{
+    color:darkblue;
 }
 
 table{
@@ -338,6 +353,124 @@ td,th{
 
 }
 
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Lucida Sans;
+    color:maroon;
+    width:20%;
 
+}
+.menu{width: 80%;
+    background-color:turquoise;
+    height: 60px;
+    margin-left:80px;
 
+}
+#flash{
+    background-image: url(images/bookshelf2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+
+.menu2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Arial;
+  padding:20px;
+  width:50%;
+  background-color:lightseagreen;
+  margin-right:30px;
+  margin-left:70px;
+  
+}
+
+.menu a li{color:darkblue}
+.word1{
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#me{
+    background-image: url(images/vac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.me1{
+    background-color:lavenderblush;
+    font-family: Goergia;
+    width:80%;
+    margin-right:40px;
+    margin-left:60px;
+    padding-right:30px;
+    padding-left: 30px;
+    font-size:30px;
+}
+#life{
+    background-image: url(images/shop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.enter2{
+    float: right;
+    margin-right: 100px;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 5px;
+}
+.enter2 a{
+    color:white;
+}
+.clothes{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    flex-direction: flex-start; 
+        
+}
+ 
+.clothes1{
+    width:40%;
+    float:right;
+  
+}
+.clothes2{
+    width:40%;
+    float:left;
+}
+ .enter3{
+    float: right;
+    margin-right: 100px;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.enter3 a{
+    color:black;
+}
+.paper3{
+    float:right;
+    margin-top:60%;
+    width:100%;
+    margin-left:0%;
+    margin-right:100%;
+    color: black;
+}
+.button{
+    text-decoration:  none;
+    background-color: #EEEEEE;
+    padding: 2px 6px 2px 6px;
+    border-top:1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    color:black;
+}
